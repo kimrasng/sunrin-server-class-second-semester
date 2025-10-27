@@ -1,0 +1,28 @@
+    # Byte-compiled / optimized / DLL files
+    *.pyc
+    __pycache__/
+    *.log
+    *.pot
+
+    # Local settings
+    local_settings.py
+    .env/
+    .env.*
+
+    # Database
+    db.sqlite3
+    db.sqlite3-journal
+
+    # Media files (if not served directly from Git)
+    media/
+
+    # Virtual environment
+    venv/
+    .venv/
+
+    # IDE-specific files (e.g., VS Code)
+    .vscode/
+    .idea/
+
+    # Static files collected during deployment (if you use collectstatic)
+    static/
